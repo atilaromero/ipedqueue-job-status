@@ -1,0 +1,12 @@
+version: '2'
+services:
+  job-status:
+    build: ./
+    volumes:
+      - ./:/usr/local/src/job-status
+    ports:
+      - localhost:1234:80
+    environment:
+      - EVIDENCE_URL=http://iped-queue/
+    command: npm start
+
