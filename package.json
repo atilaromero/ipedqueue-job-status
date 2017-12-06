@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.17.1",
     "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "config": "^1.28.1",
     "hapi": "16",
