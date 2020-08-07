@@ -22,7 +22,7 @@
     "serve": "node build/server.js"
   },
   "devDependencies": {
-    "eslint": "^4.11.0",
+    "eslint": "^4.18.2",
     "nodemon": "^1.12.1"
   }
 }
